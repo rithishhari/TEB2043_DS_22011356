@@ -7,4 +7,4 @@ Lab tasks for Data Science Jan 2026.
 
 | Date       | Lab | Tasks                                |
 |------------|-----|--------------------------------------|
-| /1/2026  | 1B   | - [Introduction to RStudio and R](Lab1/L1B)   |
+| /1/2026  | 1B   | - [Introduction to RStudio and R](Lab1/L1B.R)   |
