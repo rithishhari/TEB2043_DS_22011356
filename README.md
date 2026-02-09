@@ -7,4 +7,4 @@ Lab tasks for Data Science Jan 2026.
 
 | Date       | Lab | Tasks                                |
 |------------|-----|--------------------------------------|
-| 28/5/2025  | 1   | - [topic](link)   |
+| /1/2026  | 1B   | - [topic](link)   |
