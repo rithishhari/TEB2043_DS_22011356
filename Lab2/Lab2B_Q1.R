@@ -1,16 +1,14 @@
-weight <- as.numeric(readline("Enter your weight (kg): "))
-height <- as.numeric(readline("Enter your height (m): "))
+weight <- as.numeric(readline("Enter weight: "))
+height <- as.numeric(readline("Enter height: "))
 
-bmi <- weight / (height^2)
+bmi <- weight/(height^2)
 
-cat("Your BMI is:", bmi, "\n")
+underweight <- bmi <= 18.4
+normal <- bmi >= 18.5 & bmi <= 24.9
+overweight <- bmi >= 25.0 & bmi <= 39.9
+obese <- bmi >= 40.0
 
-if (bmi < 18.5) {
-  cat("Status: Underweight")
-} else if (bmi >= 18.5 && bmi < 25) {
-  cat("Status: Normal")
-} else if (bmi >= 25 && bmi < 30) {
-  cat("Status: Overweight")
-} else {
-  cat("Status: Obese")
-}
+cat("Underweight:", underweight, "\n")
+cat("Normal:", normal, "\n")
+cat("Overweight:", overweight, "\n")
+cat("Obese:", obese)
