@@ -12,9 +12,9 @@ Subtract <- Matrix1 - Matrix2
 Multiply <- Matrix1 * Matrix2
 Divide <- Matrix1 / Matrix2
 
-print(Matrix1)
-print(Matrix2)
-print(Add)
-print(Subtract)
-print(Multiply)
-print(Divide)
+Matrix1
+Matrix2
+Add
+Subtract
+Multiply
+Divide
